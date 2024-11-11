@@ -1,0 +1,88 @@
+body {
+    font-family: initial;
+    background-color: hotpink;
+    color: #ffc1ea;
+    background-image: url(img/y2k.jfif);
+    background-size: cover;
+}
+
+.tituloMenor {
+    font-size: 14px;
+}
+
+#titulo1 {
+line-height: 15px;
+font-family: "Voguella";
+}
+
+a {
+    color: aqua;
+    text-decoration: none;  
+    font-weight: bold;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #ff00aa;
+}
+
+
+/*Assim importamos uma fonte no css*/
+@font-face {
+    font-family:'Voguella';
+    src: url(fonts/Voguella.ttf) format('truetype');
+    
+}
+
+.tituloMenor {
+font-size: 14px;
+}
+
+#titulo1{
+line-height: 15px;
+font-family: "Voguella";
+}
+
+a {
+    text-decoration: none;
+color:hsl(320, 100%, 81%);
+font-weight: bold;
+
+}
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(255, 121, 208, 0.598);
+    box-shadow: 0 0 20px 10px rgba(rgb(255, 113, 203));
+}
+
+.botao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: rgb(255, 173, 229);
+    background-color: rgb(255, 118, 218);
+    border: none;
+}
+
+.botao:hover {
+    background-color: rgba(255, 8, 185, 0.912);
+    color: #ff91da;
+
+text-shadow: 0 0 10px ;
+
+}
